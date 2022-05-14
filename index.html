@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Osom Site</title>
+    <title>Lista zakupów</title>
     <link
         rel="stylesheet" 
         href="./style.css" 
@@ -13,58 +13,125 @@
 
 
 <body>
-    <header class="navigation__header">
-        <div class="logo_position">Logo</div>
-
-        <ul class="menu_list_header">
-            <li class="menu_link"><a href="#">Home</a></li>
-            <li class="menu_link"><a href="#">About</a></li>
-            <li class="menu_link"><a href="#">Contact</a></li>
-        </ul>
-    </header>
-
-    <nav class="top-slide">
-        <h1 class="top-slide-topic">My Osom Site</h1>
-    </nav>
-
-    <main>
-        <article class="article-box">
-            <header>
-                <h2>my first article</h2>
-            </header>
-
-            <main>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quos, consequatur non veritatis deleniti excepturi maiores ipsa itaque perferendis inventore pariatur? Consectetur dolores rerum iure, saepe cupiditate tempore molestias placeat?</p>
-            </main>
-
-            <footer class="article-footer">
-                <p>20.02.2020</p>
-            </footer>
-
-        </article>
-
+    
+        <header class="site-header">
+            
+                <h1>Lista zakupów</h1>
+            
+        </header>
+    
         
-        <div class="external-box-margin-collapsing">
-            <article class="article-box">
-                 <header>
-                    <h2>my second article</h2>
-                 </header>
+        <main>
+            <div class="shopping-card">
+                
+                <article class="shopping-card-item">
 
-                <main>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quos, consequatur non veritatis deleniti excepturi maiores ipsa itaque perferendis inventore pariatur? Consectetur dolores rerum iure, saepe cupiditate tempore molestias placeat?</p>
-                </main>
+                    <header class="shopping-card__header1">
+                        <div class="transparent-box">
+                            <h1 class="shopping__primary-header">
+                                Owoce
+                            </h1>
+                        </div>
+                        
+        
+                        
+                    </header>
+        
+                    <main class="shopping__body">
+                        <ul>
+                            <li>Jabłka</li>
+                            <li>Pomarańcze</li>
+                            <li>Kiwi</li>
+                        </ul>
+                    </main>
+        
+                    <footer class="shopping__footer">
+                        <div class="footer-checkbox">
+                            <label for="checkbox">Owoce kupione:</label>
+                            <input type="checkbox" id="checkbox" name="checkbox">
+                        </div>    
+                    </footer>
+                    
+                
+                </article>
 
-                <footer class="article-footer">
-                    <p>20.02.2020</p>
-                </footer>
-            </article>
-        </div>
+                <article class="shopping-card-item">
 
-    </main>
+                    <header class="shopping-card__header2">
+                        <div class="transparent-box">
+                            <h1 class="shopping__primary-header">
+                                Warzywa
+                            </h1>
+                        </div>
+                        
+        
+                        
+                    </header>
+        
+                    <main class="shopping__body">
+                        <ul>
+                            <li>Sałata</li>
+                            <li>Ogórki</li>
+                                <ul>
+                                    <li>Świeże</li>
+                                    <li>Kiszone</li>
+                                </ul>
+                            <li>Marchew</li>
+                        </ul>
+                    </main>
+        
+                    <footer class="shopping__footer">
+                        <div class="footer-checkbox">
+                            <label for="checkbox">Warzywa kupione:</label>
+                            <input type="checkbox" id="checkbox" name="checkbox">
+                        </div>    
+                    </footer>
+                    
+                
+                </article>
 
-    <footer class="footer-web">
-        <p>USER_NAME 2022</p>
-    </footer>
+                <article class="shopping-card-item">
+
+                    <header class="shopping-card__header3">
+                        <div class="transparent-box">
+                            <h1 class="shopping__primary-header">
+                                Nabiał
+                            </h1>
+                        </div>
+                        
+        
+                        
+                    </header>
+        
+                    <main class="shopping__body">
+                        <ul>
+                            <li>Mleko</li>
+                            <li>Twaróg</li>
+                            <li>Sery</li>
+                                <ul>
+                                    <li>Żółty</li>
+                                    <li>Camembert</li>
+                                </ul>
+                        </ul>
+                    </main>
+        
+                    <footer class="shopping__footer">
+                        <div class="footer-checkbox">
+                            <label for="checkbox">Owoce kupione:</label>
+                            <input type="checkbox" id="checkbox" name="checkbox">
+                        </div>    
+                    </footer>
+                    
+                
+                </article>
+            </div>
+    
+        </main>
+    
+        <footer class="site-footer">
+            <p>Czoper 2022</p>
+        </footer>
+      
 </body>
 
 
