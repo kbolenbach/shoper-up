@@ -1,0 +1,148 @@
+
+
+.flex-box-main-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: rgb(158, 232, 250);
+    
+    
+    
+}
+
+.flex-box-main-container-item {
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 500px;
+    width: 410px;
+    align-items: center;
+    border: 5px solid black;
+    border-top: 10px solid black;
+    border-radius: 5px;
+    
+}
+
+.nav-parent {
+    width: 390px;
+    max-width: 400px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 202, 42);
+    padding: 0;
+    margin: 5px 5px 40px 5px;
+    flex-basis: 100%;
+
+}
+
+.nav-list_item {
+    height: 100px;
+    width: 100px;
+    border: 2px solid transparent;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+    
+}
+
+.nav-list_item:hover {
+    border: 2px solid blue;
+    border-bottom: 2px double black;
+    
+}
+
+.main-list {
+    
+}
+
+.paragraph_main {
+    width: 390px;
+    max-width: 750px;
+    text-align: justify;
+    max-height: 500px;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    margin-top: 0;
+    
+    
+}
+
+.footer_list_parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 390px;
+    background-color: rgb(238, 202, 42);
+    
+}
+
+.footer_list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 390px;
+    height: 75px;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+
+
+.footer_list-item1 {
+    
+}
+
+button {
+    
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 10px;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+.footer_list-item2 {
+
+}
+
+.footer_list-item3 {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 30px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background-position-x: right;
+    padding-left: 15px;
+    
+    /* nie umiem tego wyśrodkować */
+   
+    
+    
+}
+
+.footer_list-item3:hover {
+    border: 2px solid black;
+}
+
+
+
+
