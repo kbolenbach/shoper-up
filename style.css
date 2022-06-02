@@ -1,0 +1,94 @@
+.site-header {
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 8px double aquamarine;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.shopping-card {
+    box-sizing: border-box;
+    
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.shopping-card-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.shopping-card__header1 {
+    background-image: url(./image/image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    
+    
+    
+}
+
+.shopping-card__header2 {
+    background-image: url(./image/image-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.shopping-card__header3 {
+    background-image: url(./image/image-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+.shopping__primary-header {
+    background-color: rgba(245, 245, 245, 0.3);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.transparent-box {
+    opacity: 0,6;
+}
+
+.shopping__primary-header {
+    text-transform: uppercase;
+}
+
+.shopping__body {
+    height: 150px;
+}
+
+.shopping__footer {
+    background-color: aquamarine;
+    border-top: 1px solid black;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.footer-checkbox {
+    text-align: right;
+    padding: 10px;
+}
+
+.site-footer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
